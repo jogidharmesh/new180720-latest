@@ -73,7 +73,12 @@ body{
 
 }
 
-
+textarea:focus, input:focus ,button:focus {
+    outline:1px none;
+}
+button:hover, i:hove {
+  cursor: pointer;
+}
 
 h1,h2,h3,h4{
     color: var(--FONT-COLOR) ;

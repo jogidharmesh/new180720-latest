@@ -1,4 +1,4 @@
-/* .slider{
+.slider{
     display: flex;
     flex-direction: column;
    
@@ -37,60 +37,22 @@ display: flex;
 flex-direction: row;
 justify-content: flex-end;
 
-} */
-
-.slider {
-  width: 200px;
 }
 
-.slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.slick-dots {
+.down-action{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin: 0;
-  padding: 1rem 0;
-  list-style-type: none;
 }
-
-.slick-dots li {
-  margin: 0 0.25rem;
-}
-
-.slick-dots button {
-  display: block;
-  width: 1rem;
-  height: 1rem;
-  padding: 0;
-  border: none;
-  border-radius: 100%;
-  background-color: grey;
-  text-indent: -9999px;
-}
-
-.slick-dots li.slick-active button {
-  background-color: blue;
+.button-app-info{
+    border-radius: 10px;
+    background: var(--BTN-BG-COLOR );
+    margin-left: 5px;
+    color: white;
+    border: none;
+    width: 50px;
 }
 
 
-@media screen and (max-width:450px){
-
-.slider-box{
-
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.slider{
-  box-sizing: border-box;
-    width: 100%;
-}
-  
-  
-}
 
 

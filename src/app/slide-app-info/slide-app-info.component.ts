@@ -16,41 +16,41 @@ export class SlideAppInfoComponent implements OnInit {
   slider2=false;
   slider3=false;
 
-  carouselOptions = {
-    margin: 0,
-    nav: false,
-   // navText: ["<< Previous", "Next >>"],
-    responsiveClass: true,
-    dots:false,
-    autoplay: true,
-    responsive: {
-      0: {
-        items: 2,
-       nav:false,
-        loop: true
-      },
-      450: {
-        items: 1,
-       nav:false,
-        loop: true
-      },
-      600: {
-        items: 1,
-       nav:false,
-        loop: true
-      },
-      1000: {
-        items: 1,
-       nav:false,
-        loop: true
-      },
-      1500: {
-        items: 1,
-       nav:false,
-        loop: true
-      }
-    }
-  }
+  // carouselOptions = {
+  //   margin: 0,
+  //   nav: false,
+  //  // navText: ["<< Previous", "Next >>"],
+  //   responsiveClass: true,
+  //   dots:false,
+  //   autoplay: true,
+  //   responsive: {
+  //     0: {
+  //       items: 2,
+  //      nav:false,
+  //       loop: true
+  //     },
+  //     450: {
+  //       items: 1,
+  //      nav:false,
+  //       loop: true
+  //     },
+  //     600: {
+  //       items: 1,
+  //      nav:false,
+  //       loop: true
+  //     },
+  //     1000: {
+  //       items: 1,
+  //      nav:false,
+  //       loop: true
+  //     },
+  //     1500: {
+  //       items: 1,
+  //      nav:false,
+  //       loop: true
+  //     }
+  //   }
+  // }
 
   images = [
     {
@@ -74,5 +74,7 @@ export class SlideAppInfoComponent implements OnInit {
       name: "Kalyan Fashion",
     }
   ]
+
+  
 
 }
