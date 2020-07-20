@@ -2,13 +2,13 @@
 </div>
 
 
-<div class="slider">
+<div class="slider" *ngIf="slider">
 
 <div *ngIf="slider1" class="slider-box w3-animate-left">
   <img src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
   <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h4>
     <div class="slider-action">
-  <button class="button">Skip</button>
+  <button class="button" (click)="slider=false">Skip</button>
     </div>
 </div>
 
@@ -16,7 +16,7 @@
   <img src="https://github.com/jogidharmesh/new180720/blob/master/src/assets/mpaisa.png?raw=true">
   <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
     <div class="slider-action">
-  <button class="button" >Skip</button>
+  <button class="button" (click)="slider=false" >Skip</button>
     </div>
 </div>
 
@@ -25,13 +25,15 @@
   <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
   <div class="slider-action">
 
-  <button class="button" (click)="slider3=false;slider2=false;slider1=false" >Skip</button>
+  <button class="button" (click)="slider=false" >Skip</button>
   </div>
 </div>
 
 <div style="down-action">
-  <button class="button-app-info" (click)="slider3=false;slider2=true;slider1=false">1</button>
-  <button  class="button-app-info" (click)="slider3=true;slider2=false;slider1=false">2</button>
-  <button class="button-app-info">3</button>
+  <button 
+  [ngClass]="slider1 === true ? 'button-app-info-active' : 'button-app-info'"
+  (click)="slider3=false;slider2=false;slider1=true"></button>
+  <button   [ngClass]="slider2 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=false;slider2=true;slider1=false"></button>
+  <button  [ngClass]="slider3 === true ? 'button-app-info-active' : 'button-app-info'" (click)="slider3=true;slider2=false;slider1=false"></button>
 </div> 
 

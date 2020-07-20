@@ -76,7 +76,7 @@ body{
 textarea:focus, input:focus ,button:focus {
     outline:1px none;
 }
-button:hover, i:hove {
+button:hover, i:hover {
   cursor: pointer;
 }
 

@@ -11,7 +11,7 @@ export class SlideAppInfoComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  slider =true;
   slider1=true;
   slider2=false;
   slider3=false;

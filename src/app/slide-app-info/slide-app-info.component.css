@@ -45,14 +45,34 @@ justify-content: flex-end;
   justify-content: center;
 }
 .button-app-info{
-    border-radius: 10px;
     background: var(--BTN-BG-COLOR );
+    border-radius: 25px;
     margin-left: 5px;
     color: white;
     border: none;
-    width: 50px;
+    width: 25px;
+    height: 25px;
 }
 
+.button-app-info-active{
+    background: white;
+    border: 1px solid var(--BTN-BG-COLOR );
+    border-radius: 25px;
+    margin-left: 5px;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and (max-width:450px){
+  .slider-box{
+    width: 100%;
+    height: auto;
+  }
+
+  .slider-box img{}
+}
 
 
 
