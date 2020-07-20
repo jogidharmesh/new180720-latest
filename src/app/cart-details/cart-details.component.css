@@ -188,6 +188,12 @@
       justify-content: space-around;
       align-items: center;
     }
+     /* .cart-bottom-group{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    } */
 
 
 }
