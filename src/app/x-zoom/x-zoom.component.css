@@ -156,16 +156,18 @@ z-index: 2;
       flex-direction: column;
     }
     .new-card-hr-list{
-      width: 30%;
+      width: 25%;
     }
 
     .product-dt {
       display: flex;
      flex-direction: row;
     }
-    h4 label{
-     margin-left: 5px;
+     .product-dt h4 , .product-dt label, .product-deails-list h4 ,.new-card-hr-list h4{ 
+      margin:0px;
+      width: 100%
     }
+
 @media screen and (max-width: 450px) {
 
     .new-card-box {
@@ -222,6 +224,9 @@ z-index: 2;
     }
     .product-deails-list{
       width: 50%;
+    }
+    .new-card-hr-list{
+      width: 30%;
     }
  
 }

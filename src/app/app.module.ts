@@ -85,7 +85,7 @@ const routes: Routes = [
   { path:'order-details',component:OrderDetailsComponent},
   { path:'wish-list',component:WishlistComponent},
   { path:'out-stock',component:ProductOutofstockComponent},
-  { path:'x-zoom', component:XZoomComponent},
+  { path:'review-order', component:XZoomComponent},
   { path:'login',component:LoginComponentComponent},
   { path:'slider',component:SlideAppInfoComponent }
 ,];

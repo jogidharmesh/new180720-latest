@@ -71,7 +71,11 @@ justify-content: flex-end;
     height: auto;
   }
 
-  .slider-box img{}
+  .slider-box img{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+  }
 }
 
 
