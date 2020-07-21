@@ -82,7 +82,7 @@ button:hover, i:hover {
 
 h1,h2,h3,h4 ,ul{
     color: var(--FONT-COLOR) ;
-    margin:0px; 
+    /* margin:0px;  */
 }
 .mr-t{
     margin-top: 15px;
@@ -286,7 +286,7 @@ font-weight:bolder;
 
     .icon-left{
         position: relative;
-        left: 5%;
+        left: 8%;
            }
     
     .icon-right{
@@ -331,7 +331,7 @@ font-weight:bolder;
     }
 
     .product-view-list {
-        width: 90%;
+        width: 65%;
         align-items: flex-start;
         margin-left: 1em;
     }
