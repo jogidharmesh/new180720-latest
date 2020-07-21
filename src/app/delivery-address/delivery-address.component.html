@@ -1,6 +1,8 @@
 
 <div class="body-app">
 </div>
+
+<div class="container">
 <div *ngIf="!ad" class="delivery-ad">
     <div class="change-address">
         <h3>Delivery To</h3>
@@ -8,7 +10,7 @@
     </div>
     <label>SCO 201, Sector 14, BEL Colony, Budanpur, Panchkula, Haryana 134109</label>
 </div>
-<div class="delivery-type mr-l mr-t mr-r mr-b">
+<div class="delivery-type ">
     <div class="delivery-home">
         <h4>Home Delivery</h4>
         <img src="../../assets/delivery.png" (click)="hd =true;ps=fasle">
@@ -19,10 +21,10 @@
         <img src="../../assets/store.png" (click)="hd =false;ps=true">
     </div>
 </div>
-<div *ngIf="hd" class="home-delivery mr-l mr-t mr-r mr-b">
+<div *ngIf="hd" class="home-delivery ">
     <h4>Your order will be deliverd within next 24 hours at 400/20 ,sector 11,Goregaon,Haryana,India </h4>
 </div>
-<div *ngIf="ps" class="picup-order mr-l mr-t mr-r mr-b">
+<div *ngIf="ps" class="picup-order ">
     <h3>PickUp from store time</h3><a href="/store-pickup">Timing</a>
 </div>
 <div *ngIf="pickupfromstore" class="delivery-pickup-time mr-t mr-r mr-l mr-b">
@@ -31,7 +33,7 @@
     <span [owlDateTimeTrigger]="dt2"><i class="fa fa-calendar"></i></span>
     <owl-date-time #dt2></owl-date-time>
 </div>
-<div class="store-details mr-l mr-t mr-r mr-b">
+<div class="store-details ">
     <div class="store-head">
         <h3>Store Details</h3><button (click)="showhide()">{{dstatus}}</button>
     </div>
@@ -43,11 +45,11 @@
             tabindex="0"></iframe>
     </div>
 </div>
-<div class="review-order mr-l mr-t mr-r mr-b">
+<div class="review-order ">
     <h3>Review Order</h3><a href="/product-cart">Review Order</a>
 </div>
 
-<div class="member-ship  mr-l mr-t mr-r mr-b ">
+<div class="member-ship   ">
     <h3>Please enter your membership no</h3>
 
     <div class="member-ship-btm">
@@ -55,11 +57,11 @@
         <button type="button">Check</button>
     </div>
 </div>
-<div class="redeem mr-l mr-t mr-r mr-b">
+<div class="redeem ">
     <label>Choose Redeem option</label>
     <button type="button"><a href="/redeem-options">Apply Now</a></button>
 </div>
-<div class="cart-checkout-delivery mr-l mr-t mr-r mr-b">
+<div class="cart-checkout-delivery ">
     <h3>Payment Details</h3>
     <div class="product-dt">
         <h4>M.R.P Total</h4> <label>250 RS</label>
@@ -73,5 +75,6 @@
     <div class="product-dt">
         <h4></h4> <button><a routerLink="/payment-method">Proceed</a></button>
     </div>
+</div>
 </div>
 <app-app-footer></app-app-footer>
