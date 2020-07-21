@@ -4,7 +4,7 @@
 	<div class="user-header">
 		<div class="user-image">
 			<label class="hoverable" for="fileInput">
-  <img [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
+  <img class="u-img"  [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
   <div class="hover-text">Choose file</div>
   <div class="background"></div>
 </label>
@@ -23,12 +23,12 @@
         Regd</label>
 	<div>
 		<mat-list>
-			<mat-list-item> <i class="fas fa-user"></i>Profile </mat-list-item>
-			<mat-list-item> <i class="fas fa-sign-out-alt"></i> My Order </mat-list-item>
-			<mat-list-item> <i class="fas fa-sign-out-alt"></i>Change Branch </mat-list-item>
-			<mat-list-item routerLink="/wish-list"> <i class="fas fa-heart" ></i>My WishList </mat-list-item>
-			<mat-list-item> <i class="fas fa-comment-dots"></i> Send feedback </mat-list-item>
-			<mat-list-item> <i class="fas fa-sign-out-alt"></i> Log out </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/user-groups.png?raw=true"> Profile </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/purchase-order.png?raw=true"> My Order </mat-list-item>
+			<mat-list-item><img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/online-store.png?raw=true"> Change Branch </mat-list-item>
+			<mat-list-item routerLink="/wish-list"> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/heart.png?raw=true">My WishList </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/feedback.png?raw=true"> Send feedback </mat-list-item>
+			<mat-list-item> <img class="list-img" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/logout-.png?raw=true"> Log out </mat-list-item>
 		</mat-list>
 	</div>
 </div>
