@@ -74,7 +74,7 @@ body{
 }
 
 textarea:focus, input:focus ,button:focus {
-    outline:1px none;
+    outline: none;
 }
 button:hover, i:hover {
   cursor: pointer;
@@ -82,7 +82,7 @@ button:hover, i:hover {
 
 h1,h2,h3,h4 ,ul{
     color: var(--FONT-COLOR) ;
-    /* margin:0px;  */
+    margin:0px; 
 }
 .mr-t{
     margin-top: 15px;
