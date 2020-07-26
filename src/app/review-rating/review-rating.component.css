@@ -12,7 +12,7 @@
     color: var(--BTN-FONT-COLOR);
     /* width: 50%; */
     margin-right: 5px;
-    margin-left: 
+    margin-left: 5px;
 }
 textarea {
     height: 8em;

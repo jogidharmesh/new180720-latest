@@ -85,6 +85,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-top: 2.5em;
 /*     border: 2px solid var(--BORDER-COLOR); */
 }
 
@@ -193,7 +194,7 @@ label {
   }
   .alert-box{
     position: absolute;
-    top: 10em;
+    top: 8.5em;
     left: 13em;
     color: #ffffff;
     padding: 5px;
@@ -235,6 +236,32 @@ label {
     box-sizing: border-box;
     margin: auto;
   }
+
+
+  .new-card-hr-tile {
+     align-items: center;
+    justify-content: space-evenly ;
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+
+    .dis_section {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #dd0608;
+    font-size: 11px;
+    z-index: 998;
+    color: #fff;
+    display: block;
+    /* padding: 5px 0; */
+}
 @media screen and (max-width: 450px) {
     .web-product {
         display: none;
@@ -266,7 +293,7 @@ label {
         border: none;
         font-weight: bold;
     }
-
+.web-product
     .product-dt {
         display: flex;
         flex-direction: row;
