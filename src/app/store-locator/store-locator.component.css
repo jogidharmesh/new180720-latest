@@ -141,6 +141,11 @@
   border-radius: 50%;
 }
 
+.str-gl-cat a:hover {
+    
+    text-decoration: none;
+}
+
 
 /* //new css */
 
