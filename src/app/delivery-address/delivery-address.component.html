@@ -10,15 +10,15 @@
     </div>
     <label>SCO 201, Sector 14, BEL Colony, Budanpur, Panchkula, Haryana 134109</label>
 </div>
-<div class="delivery-type ">
-    <div class="delivery-home">
+<div class="delivery-type row">
+    <div class="col-md-6 col-sm-6">
         <h4>Home Delivery</h4>
-        <img src="../../assets/delivery.png" (click)="hd =true;ps=fasle">
+        <img  class="mx-auto" src="../../assets/delivery.png" (click)="hd =true;ps=fasle">
     </div>
 
-    <div class="delivery-pickup">
+    <div class="col-md-6 col-sm-6">
         <h4>Pick Up from store</h4>
-        <img src="../../assets/store.png" (click)="hd =false;ps=true">
+        <img class="mx-auto" src="../../assets/store.png" (click)="hd =false;ps=true">
     </div>
 </div>
 <div *ngIf="hd" class="home-delivery ">
@@ -58,8 +58,8 @@
     </div>
 </div>
 <div class="redeem ">
-    <label>Choose Redeem option</label>
-    <button type="button"><a href="/redeem-options">Apply Now</a></button>
+    <!-- <label>Choose Redeem option</label> -->
+    <button type="button"><a href="/redeem-options">Choose Redeem option </a></button>
 </div>
 <div class="cart-checkout-delivery ">
     <h3>Payment Details</h3>

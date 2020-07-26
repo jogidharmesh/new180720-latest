@@ -1,7 +1,7 @@
 .cancel-order-main {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    /* width: 80%; */
   box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@
         flex-direction: column;
         justify-self: flex-start;
         align-items: center;
-        width: 100%;
+        /* width: 100%; */
     }
 
     

@@ -22,11 +22,14 @@
 				<span class="strikethrough">M.R.P ₹ 450</span> <span class="spn">M.R.P ₹ 400</span>
 			</div>
 		</div>
-		<div [ngClass]="prodctDetailsBtmClass" >
-			<!-- <i ></i> -->
-      <img [ngClass]="wishlist" (click)="wishclick()" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/heart.png?raw=true">
-			<button type="button" [ngClass]="itemadded" (click)="itemadd()">Add</button>
+		<div [ngClass]="prodctDetailsBtmClass">
+			<div class="col-md-6">
+				<img [ngClass]="wishlist" (click)="wishclick()" src="https://github.com/jogidharmesh/new180720-latest/blob/master/src/assets/heart.png?raw=true">
+</div>
+				<div class="col-md-6">
+					<button type="button" [ngClass]="itemadded" (click)="itemadd()">Add</button>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
-<app-app-footer></app-app-footer>
+	<app-app-footer></app-app-footer>

@@ -41,8 +41,8 @@ export class OrderCancelComponent  {
     // const dialogRef = this.dialog.open(ModalContentComponent);
 
     const dialogRef = this.dialog.open(ModalContentComponent, {
-      width: '250px',
-      height: '250px'
+      width: '400px',
+      height: '400px'
       // data: {name: this.name, animal: this.animal}
     });
     dialogRef.afterClosed().subscribe(result => {
@@ -54,8 +54,9 @@ export class OrderCancelComponent  {
     // const dialogRef = this.dialog.open(ModalContentComponent);
 
     const dialogRef = this.dialog.open(ReviewRatingComponent, {
-      width: '400px',
-      height: '400px'
+      width: '600px',
+      height: '400px',
+  
       // data: {name: this.name, animal: this.animal}
     });
     dialogRef.afterClosed().subscribe(result => {

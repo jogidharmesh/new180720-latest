@@ -133,6 +133,23 @@
       margin-bottom:5px; 
     }
 
+    .new-card-hr {
+    flex-direction: row;
+}
+
+.offer{
+position: relative;
+max-width: 150px;
+font-size: 1rem;
+color: #012b72;
+background: #fff764;
+padding: 3px 11px 3px 5px;
+border: 1px solid #ded215;
+border-radius: 4px;
+z-index: 1;
+white-space: nowrap;
+}
+
 
 
 
@@ -180,6 +197,7 @@
     .cart-img {
         width: 10%;
         margin: 5px;
+        position: relative;
     }
 
     .cart-bottom-group{

@@ -53,7 +53,7 @@
 .button-redeem input{
     border-radius: 5px;
     border: 1px solid var(--BORDER-COLOR);
-    width: 60%;
+    width: 80%;
     line-height: 2em;
 }
 

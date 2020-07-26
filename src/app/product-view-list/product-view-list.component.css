@@ -45,6 +45,7 @@
 .img-card {
     width: 150px;
     height: 150px;
+    position: relative;
     margin: auto;
 }
 
@@ -128,7 +129,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size:2em;
-        color:black;
+        color:red;
         font-weight:bolder;
       }
 

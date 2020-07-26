@@ -1,6 +1,6 @@
 .cartvalue{
      position: relative;
-    top: -22px;
+    top: -15px;
     right: 18px;
     color: black;
 }
@@ -16,8 +16,11 @@
 
   .cartvalue {
   position: relative;
-    top: -22px;
+    top: -15px;
     right: 18px;
     color: black;
+}
+.mobile{
+  display: none;
 }
 }
